@@ -1,0 +1,36 @@
+
+.headings {
+font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+header {
+    background: #ffffff;
+    border: 1px;
+    border-color: #000000;
+}
+
+#nameplate {
+    width: 100px;
+    background: #4aaaa5;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin: 0.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+nav{
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    right: 0px;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin: 0.5em;
+    text-align: center;
+    background: #4aaaa5;
+  }
