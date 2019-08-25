@@ -1,36 +1,104 @@
 
+body{
+    background-image: url(../images/qw.gif);
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.container {
+    margin-top: 100px;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    height: 500px;
+    padding: 10px
+}
+
 .headings {
-font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.fontchanger {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #4aaaa5;
 }
 
 header {
     background: #ffffff;
     border: 1px;
-    border-color: #000000;
+    border-color: #cccccc;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 #nameplate {
-    width: 100px;
     background: #4aaaa5;
     display: inline-block;
-    width: 200px;
+    width: auto;
     height: 50px;
-    margin: 0.5em;
     text-align: center;
     vertical-align: middle;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 15px;
+    margin-left: 140px;
 }
+
 nav{
     display: inline-block;
     width: auto;
     position: absolute;
     right: 0px;
+    margin-right: 110px;
 }
 
-.box {
-    display: inline-block;
-    width: 100px;
-    height: 50px;
-    margin: 0.5em;
+.thumbnail {
+    height: 200px;
+    width: 325px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    align: bottom;
+    height: 55px;
+    background-color: #666666;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-color: #4aaaa5;
     text-align: center;
-    background: #4aaaa5;
-  }
+    vertical-align: text-bottom;
+}
+
+p {
+    display: inline-block;
+}
+
+ul {
+    margin-top: 40px;
+    margin-right: 1em;
+    float: right;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    padding: 20px; 
+}
+
+#footernotes {
+    bottom: 0;
+    color: #ffffff;
+}
+
