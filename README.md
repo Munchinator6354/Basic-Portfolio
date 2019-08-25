@@ -1,2 +1,2 @@
 # Basic-Portfolio
-Exactly what it sounds like AND Assignment#1
+This is the harder but more recommended homework assignment#1
