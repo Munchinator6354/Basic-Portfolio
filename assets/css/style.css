@@ -14,6 +14,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    /* I would like to change the height here to be 500px minimum with maximum of auto/content size.*/
     height: 500px;
     padding: 10px
 }
@@ -76,10 +77,12 @@ footer {
     background-color: #666666;
     margin-top: 30px;
     margin-right: 0px;
+    margin-bottom: 0px;
     margin-left: 0px;
     border-color: #4aaaa5;
     text-align: center;
     vertical-align: text-bottom;
+    
 }
 
 p {
@@ -101,4 +104,9 @@ li {
 #footernotes {
     bottom: 0;
     color: #ffffff;
+}
+
+.floatedProjectpic {
+    float: left;
+
 }
